@@ -23,7 +23,7 @@ if (command === "concert-this") {
 
   var artist = process.argv[3];
 
-  request("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp", function (error, response, body) {
+  request("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=1234677", function (error, response, body) {
 
       if (!error && response.statusCode === 200) {
           console.log("-------------------------------------");
